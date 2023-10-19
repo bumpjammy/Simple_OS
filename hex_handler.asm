@@ -30,7 +30,7 @@ print_hex:
 
 .done:
     mov bx, .HEX_OUT  ; Move our updated hex string into bx
-    call println      ; println our hex strijg
+    call println      ; println our hex string
 
     popa              ; pop old registers back in
     ret
